@@ -1,7 +1,8 @@
 $.getJSON("wisdom.json", function(wisdoms) {
     wisdom = wisdoms[Math.floor(Math.random()*wisdoms.length)];
     $.each(wisdom[0], function(index, value) {
-      $("body").append("<h1>"+value+"<\h1>");
+      $(".wisdom").append("<div class=\"line\">"+value+"</div>");
     });
-    $("body").append("<h4>"+wisdom[1]+"<\h4>");
+    var date = new Date(wisdom[1])
+    $(".wisdom").append("<div class=\"date\">"+date.toLocaleDateString("en-US")+"</div>");
 });

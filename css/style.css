@@ -1,28 +1,36 @@
-.buttonClass { 
-    background-image: url('http://dabuttonfactory.com/b.png?t=Generate&f=Calibri&ts=24&tc=ffffff&it=png&c=0&bgt=unicolored&bgc=5996f7&hp=24&vp=15');
-    background-position:  0px 0px;
-    background-repeat: no-repeat;
-    width: 138px;
-    height: 49px;
-    border: 0px;
-    background-color:white;
-
-}
-.buttonClass:hover{ 
-      background-position:  0px 1px;
-}
-
-.buttonClass:active{
-      background-position:  0px 2px;
-}
+html,
 body{     
+    margin: 0;
     background-color: LightGreen;
+    color: White;
     text-align: center;
     vertical-align: "bottom";
-    margin-top: 5em;  
-}
-h1, h4{
     font-family:'Open Sans', sans-serif;
-    color: White;
-    line-height: 20px;
+    
+}
+
+.wisdom {
+    width: 100%;
+    height: auto;
+    bottom: 0px;
+    top: 5em;
+    left: 0%;
+    position: absolute;
+}
+.line {
+    position: relative;
+    width: 100%;
+    height: 15%;
+    /*top: 80%;*/
+    margin-top: 0px;
+    font-size: 30px;
+    font-size: 6.5vw;
+}
+.date {
+    position: relative;
+    width: 50%;
+    height: 5%;
+    top: 2em;
+    left: 25%;
+    font-size:3vw;
 }
