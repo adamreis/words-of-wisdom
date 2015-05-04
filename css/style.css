@@ -1,0 +1,28 @@
+.buttonClass { 
+    background-image: url('http://dabuttonfactory.com/b.png?t=Generate&f=Calibri&ts=24&tc=ffffff&it=png&c=0&bgt=unicolored&bgc=5996f7&hp=24&vp=15');
+    background-position:  0px 0px;
+    background-repeat: no-repeat;
+    width: 138px;
+    height: 49px;
+    border: 0px;
+    background-color:white;
+
+}
+.buttonClass:hover{ 
+      background-position:  0px 1px;
+}
+
+.buttonClass:active{
+      background-position:  0px 2px;
+}
+body{     
+    background-color: LightGreen;
+    text-align: center;
+    vertical-align: "bottom";
+    margin-top: 5em;  
+}
+h1, h4{
+    font-family:'Open Sans', sans-serif;
+    color: White;
+    line-height: 20px;
+}
