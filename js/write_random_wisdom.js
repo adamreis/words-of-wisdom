@@ -4,5 +4,7 @@ $.getJSON("wisdom.json", function(wisdoms) {
       $(".wisdom").append("<div class=\"line\">"+value+"</div>");
     });
     var date = new Date(wisdom[1])
-    $(".wisdom").append("<div class=\"date\">"+date.toLocaleDateString("en-US")+"</div>");
+    if (isNaN(date)==false) {
+      $(".wisdom").append("<div class=\"date\">"+date.toLocaleDateString("en-US")+"</div>");
+    }
 });
